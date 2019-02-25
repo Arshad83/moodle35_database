@@ -1,0 +1,24 @@
+a:37:{s:14:"filelockedmail";s:50:"You has been enroled in {$a->fullname} ({$a->url})";s:8:"location";s:7:"Message";s:42:"messageprovider:notificationeabc_enrolment";s:27:"Enrol notification messages";s:23:"notificationeabc:manage";s:23:"Manage notificationeabc";s:10:"pluginname";s:18:"Enrol Notification";s:15:"pluginname_desc";s:28:"Enrol notifications via mail";s:13:"location_help";s:310:"Personalize the message that users will come to be enrolled. This field accepts the following markers which then will be replaced by the corresponding values ​​dynamically
+<pre>
+{COURSENAME} = course fullname
+{USERNAME} = username
+{NOMBRE} = firstname
+{APELLIDO} = lastname
+{URL} = course url
+</pre>";s:10:"fecha_help";s:70:"Place the period for which you want to perform the first virificación";s:5:"fecha";s:49:"Period for verification of users enrolled courses";s:7:"activar";s:27:"Enable initial verification";s:12:"activar_help";s:128:"When activated will be verified by the immediate execution of cron later, users who were enrolled for the period specified above";s:13:"activarglobal";s:13:"Active global";s:18:"activarglobal_help";s:38:"Active enrol notification for all site";s:11:"emailsender";s:13:"Email sender ";s:16:"emailsender_help";s:46:"By default set to take the email user support ";s:10:"namesender";s:12:"Name sender ";s:15:"namesender_help";s:52:"By default it takes the name set to the user support";s:6:"status";s:25:"Active enrol notification";s:7:"subject";s:22:"Enrolment notification";s:16:"activeenrolalert";s:18:"Active enrol alert";s:21:"activeenrolalert_help";s:18:"Active enrol alert";s:18:"activeunenrolalert";s:28:"Active unenrol notifications";s:23:"activeunenrolalert_help";s:20:"Active unenrol alert";s:25:"activarglobalunenrolalert";s:13:"Active global";s:30:"activarglobalunenrolalert_help";s:39:"Active enrol notifications for all site";s:14:"unenrolmessage";s:14:"Custom Message";s:19:"unenrolmessage_help";s:312:"Personalize the message that users will come to be unenrolled. This field accepts the following markers which then will be replaced by the corresponding values ​​dynamically
+<pre>
+{COURSENAME} = course fullname
+{USERNAME} = username
+{NOMBRE} = firstname
+{APELLIDO} = lastname
+{URL} = course url
+</pre>";s:21:"unenrolmessagedefault";s:55:"You has been unenrolled from {$a->fullname} ({$a->url})";s:23:"activeenrolupdatedalert";s:33:"Active update enrol notifications";s:28:"activeenrolupdatedalert_help";s:33:"Active update enrol notifications";s:25:"activarglobalenrolupdated";s:13:"Active global";s:30:"activarglobalenrolupdated_help";s:47:"Active enrol updated notifications for all site";s:19:"updatedenrolmessage";s:14:"Custom message";s:24:"updatedenrolmessage_help";s:309:"Personalize the message that users will come to be updated. This field accepts the following markers which then will be replaced by the corresponding values ​​dynamically
+<pre>
+{COURSENAME} = course fullname
+{USERNAME} = username
+{NOMBRE} = firstname
+{APELLIDO} = lastname
+{URL} = course url
+</pre>";s:26:"updatedenrolmessagedefault";s:63:"Your enrolment from {$a->fullname} has been updated ({$a->url})";s:13:"succefullsend";s:94:"The user {$a->username} has been notified about his enrollment in the {$a->coursename} course
+";s:8:"failsend";s:115:"WARNING: it has no been able to notify the {$a->username} user about his enrollment in the {$a->coursename} course
+";}
